@@ -1,0 +1,35 @@
+# Build products and local diagnostics are never publication inputs.
+build/
+TestResults/
+LocalArtifacts/
+*.log
+*.xcresult
+*.dSYM/
+*.xcarchive/
+*.xcuserstate
+xcuserdata/
+.build/
+.swiftpm/
+DerivedData/
+.DS_Store
+.env
+.env.*
+*.p12
+*.p8
+*.pem
+*.key
+*.mobileprovision
+*.provisionprofile
+*.private.json
+# Audio fixtures are generated locally; call audio must never be committed.
+*.wav
+*.aif
+*.aiff
+*.caf
+*.m4a
+*.mp3
+*.aac
+*.flac
+*.raw
+presets.json
+inspection*.json
